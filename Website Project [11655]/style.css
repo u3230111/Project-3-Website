@@ -1,0 +1,479 @@
+/*
+Main Page CSS
+*/
+
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+
+.mainpage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/backgroundIMG1.jpeg);
+    font-family: 'Bebas Neue', cursive;
+} 
+
+.header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.navigation{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.navigation ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.image{
+    position: absolute;
+    top: -30px;
+    left: 600px;
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.image:hover{
+    filter: invert();
+}
+
+.title{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-size: 100px;
+    size: 100px;
+    color:black;
+    width: 500px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.title:hover{
+    font-size: 105px;
+    color: #750707;
+}
+
+.poster1{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    width: 350px;
+    height: 500px;
+    filter: brightness(75%);
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.poster1:hover{
+    filter: brightness(105%);
+}
+
+.contentpage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/backgroundIMG2.jpg); 
+    background-size: 100%;
+}
+
+.posterIcon1{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 22%;
+    left: 20%;
+    filter: brightness(75%);
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.posterIcon1:hover{
+    filter: brightness(105%);
+}
+
+.posterIcon2{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 40%;
+    left: 40%;
+    filter: brightness(75%);
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.posterIcon2:hover{
+    filter: brightness(105%);
+}
+
+.posterIcon3{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 20%;
+    left: 60%;
+    filter: brightness(75%);
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.posterIcon3:hover{
+    filter: brightness(105%);
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #4d1a00;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footerLinks{
+    align-items: center;
+}
+
+.footerLinks ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 270px;
+    font-size: 30px;
+}
+
+/*
+History Page CSS
+*/
+
+.historyMP{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/historypageIMG.jpeg);
+    background-size: 100%;
+    background-color: #750707;
+    font-family: 'Bebas Neue', cursive;
+} 
+
+.historyHeader{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    color: white;
+}
+
+.historyText1{
+    position: absolute;
+    font-family: 'DM Serif Display', serif;
+    padding: 10px;
+    top: 32%;
+    left: 26%;
+    width: 50%;
+    color: white;
+    background-color: grey;
+}
+
+.historyText2{
+    position: absolute;
+    font-family: 'DM Serif Display', serif;
+    padding: 10px;
+    top: 54%;
+    left: 26%;
+    width: 50%;
+    color: white;
+    background-color: grey;
+}
+
+.historyText3{
+    position: absolute;
+    font-family: 'DM Serif Display', serif;
+    padding: 10px;
+    top: 65%;
+    left: 26%;
+    width: 50%;
+    color: white;
+    background-color: grey;
+}
+
+.historyText4{
+    position: absolute;
+    font-family: 'DM Serif Display', serif;
+    padding: 10px;
+    top: 79%;
+    left: 26%;
+    width: 50%;
+    color: white;
+    background-color: grey;
+}
+
+.historyPosterPage{
+    width: 100%;
+    height: 750vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/historyBackgroundIMG2.jpeg);
+    background-size: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.posterHeading{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 50px;
+    color: white;
+    background-color: #4d1a00;
+    padding: 10px;
+}
+
+.posterText{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 470px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    color: white;
+    background-color: #4d1a00;
+    padding: 10px;
+}
+
+.postersShowcase{
+    position: absolute;
+    left: 45%;
+    top: 20px;
+}
+
+.postersShowcase ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    height: 350px;
+    margin-bottom: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.postersShowcase ul li:hover{
+    width: 280px;
+    height: 380px;
+    filter: brightness(120%);
+}
+
+/*
+New Artists CSS
+*/
+
+.newartistsMP{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/newartistsBGIMG.jpeg);
+    background-size: 100%;
+    font-family: 'Bebas Neue', cursive;
+} 
+
+.naContentHeader{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-size: 60px;
+    color: white;
+}
+
+.naContentText{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    width: 400px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    color: white;
+    background-color: #750707;
+    padding: 10px;
+}
+
+.newartistsList{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    background-color: #750707;
+    padding: 10px;
+}
+
+.newartistsList ul li{
+    list-style: none;
+}
+
+.newartistsIMG1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 280px;
+    right: 90px;
+}
+
+.newartistsIMG2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 410px;
+    right: 400px;
+}
+
+.newartistsIMG3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    right: 640px;
+}
+
+/*
+About Us CSS
+*/ 
+
+.aboutusMP{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/aboutusBGIMG.jpeg);
+    background-size: 100%;
+    font-family: 'Bebas Neue', cursive;
+} 
+
+.auContentHeader{
+    position: absolute;
+    top: 200px;
+    left: 520px;
+    font-size: 60px;
+    color: white;
+}
+
+.auContentText{
+    position: absolute;
+    top: 320px;
+    left: 360px;
+    width: 700px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    background-color: #4d1a00;
+    color: white;
+    padding: 20px;
+}
+
+.auContentCU{
+    position: absolute;
+    top: 630px;
+    left: 600px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: white;
+    background-color: #4d1a00;
+    padding: 10px;
+}
+
+/*
+Contact Us CSS
+*/
+
+.contactusMP{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/contactusBGIMG.jpeg);
+    font-family: 'Bebas Neue', cursive;
+} 
+
+.cuHeader{
+    position: absolute;
+    top: 240px;
+    left: 480px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: white;
+}
+
+.cuText{
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    color: white;
+    width: 900px;
+    background-color: #4d1a00;
+    padding: 15px;
+}
+
+#endForm{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    display: block;
+    width: 200px;
+    padding: 50px;
+    top: 500px;
+    left: 580px;
+}
+
+/*
+Link CSS
+*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
